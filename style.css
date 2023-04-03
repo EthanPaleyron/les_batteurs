@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+:root {
+  --black: #1A1A1A;
+  --white: #EAEAEA;
+  --orange: #F9A02C;
+  --banana: #FFC368;
+  --dark_purple: #110011;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+body {
+  font-family: 'Arvo', serif;
+  background-color: var(--black);
+}
+
+.position_logo {
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 5em;
+}
